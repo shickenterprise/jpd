@@ -1,0 +1,247 @@
+/*
+
+Theme Name: JPD Theme
+Description: JPD Designs Theme
+Author: Fourteen G Web Design Studio
+Version: 0.1
+Template: twentytwelve
+
+*/
+
+
+@import url('../twentytwelve/style.css');
+
+			/*--== Fonts ==--*/
+	
+	@font-face {
+		font-family: ParfumerieScriptRegular;
+		src: url(_fonts/ParfumerieScriptRegular.otf);
+		}
+	@font-face {
+		font-family: centaur;
+		src: url(_fonts/CENTAUR.TTF);
+		}	
+	@font-face {
+		font-family: ecuyer;
+		src: url(_fonts/EcuyerR.TTF);
+		}	
+	@font-face {
+		font-family: elephnt;
+		src: url(_fonts/ELEPHNT.TTF);
+		}	
+	@font-face {
+		font-family: gara;
+		src: url(_fonts/GARA.TTF);	
+	}
+	@font-face {
+		font-family: garait;
+		src: url(_fonts/GARAIT.TTF);
+	}
+
+
+	
+						/*--== Page Size & Positioning ==-- */
+				/*page*/	
+				body {
+					background-image: url(_images/transparent_floral_back.png);
+				}
+				h1, h2, h3, h4, h5, h6, a {
+				color: #97669B;
+				}
+				body.custom-font-enabled {
+					font-family: centaur;
+				}
+									
+				body .site {
+					box-shadow: none;
+					background-color: transparent;
+					width: 1080px;
+					max-width: 100%;
+				}
+			/*--== Header ==--*/
+.site-header {
+	background-image: url(_images/header_back_live.png);
+	background-repeat: no-repeat;	
+	height: 180px;
+	padding: 40px;}
+
+.header-image {
+    margin: 0 auto;
+	height:	84px;
+	width:560px;
+}
+	
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: none;
+    border-top: none;
+    margin: 0 auto;
+    width: 90%
+}
+
+.main-navigation li a {
+    font-size: 19px;
+}
+
+	
+			/*--== Body ==--*/
+	.content-background-top {
+	background-image: url(_images/content-background-top.png);
+	background-repeat: no-repeat;	
+	height: 65px;	
+		}		
+			
+	.wrapper {
+	background-image: url(_images/content-background-center.png);
+	background-repeat: repeat-y;
+	}
+	
+	.content-background-bottom {
+	background-image: url(_images/content-background-bottom.png);
+	background-repeat: no-repeat;
+	height: 70px;		
+		}
+	
+					/*--== Site Content ==--*/
+	.site-content {
+		border-right-width: 4px;
+		border-right-style: double;
+		border-right-color: #666666;
+		margin: -15px 0 0 28px;
+		width:65%
+	}
+	.content-bottom-border {
+		border-top: 4px double #666666;
+		margin: 0 auto;
+		width: 500px;
+	}
+	.archive-header .archive-title {
+		margin-left: 30px;
+		font-family: centaur;
+		text-transform: none;
+	}
+					
+					/*--== Sidebar ==--*/
+	.widget-area {
+    width: 31%;
+	}
+	.widget-area .widget {
+    text-align: center;
+	}
+	.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+    color: #97669B;
+    font-family: parfumeriescriptregular;
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: 0.56px;
+    line-height: 1px;
+    text-transform: lowercase;
+    word-spacing: 5px;
+	}
+	.widget-area aside ul a {
+    font-size: 18px;
+	}
+			/*--== Widget Specific CSS ==--*/
+			
+			.widget-area .widget p, .widget-area .widget li, .widget-area .widget .textwidget {
+				font-size: 20px;
+				line-height: 1.84615;
+			}
+			.textwidget {
+				font-size: 24px;
+				margin-left: 51px;
+				text-align: left;
+			}
+				/*Really Simple Sidebar Gallery*/			
+			.rsg_image {
+				float: left;
+				margin: 10px 5px 10px 0;
+			}
+			
+			
+			/*--== footer ==--*/
+	#colophon {
+	height:150px;
+	width: 1080px;
+	background-color: #FF9;
+	}
+	
+	
+	/*--== Post ==--*/
+		
+		/*--== Post Default Settings ==--*/
+		
+			.entry-header {
+					margin-bottom:0;
+				}
+		
+		/*-== Post Heading ==--*/
+				.entry-number {
+					font-family: elephnt;
+					font-size:28px;
+					font-weight: 100;
+				}
+				.entry-header .entry-title {
+					font-size: 5rem;
+					font-family: ParfumerieScriptRegular;
+				}
+				.entry-date {
+					font-family: garait;
+					font-size: 20px;
+				}
+				
+				.entry-header a {
+					text-decoration:none;
+					}
+				
+				 .title-header {
+					}
+				.left-title-header {
+					display: inline-block;
+					width: 75%;
+				}
+				.left-title-header *{
+					display:inline;
+					}
+				.title-border {
+					border-left: 4px double #333333;
+					font-size: 30px;
+					margin: 0 15px;
+				}
+				
+				.right-title-header {
+					display: inline-block;
+					text-align: right;
+					width: 20%;
+				}
+				
+				/*--== Post Content ==--*/
+				
+				.entry-content p, .entry-summary p, .comment-content p, .mu_register p {
+					font-size: 20px;
+				}
+				
+				/*--== Post Footer ==--*/
+				.comments-link {
+ 			   font-size: 18px;
+				}
+	
+	/*--== Test ==--*/
+	
+	.centaur {
+		font-family: centaur;
+		}
+	.ecuyer {
+		font-family:ecuyer;
+	}
+	.elephnt {
+		font-family: elephnt;
+	}
+	.gara {
+		font-family: gara;
+	}
+	.garait {
+		font-family: garait;
+	}
+	.font-test {
+		font-size: 30px;
+	}
