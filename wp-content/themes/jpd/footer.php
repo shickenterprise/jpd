@@ -15,7 +15,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>"><?php printf( __( '', 'twentytwelve' ), 'WordPress' ); ?></a>
+			<?php printf( __( 'COPYRIGHT &copy; 2012 JUDY PAULEN DESIGNS, LLC. ALL RIGHTES RESERVED SITE DESIGN: LILY NOTES STUDIO', 'twentytwelve' ), 'WordPress' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
