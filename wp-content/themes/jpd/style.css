@@ -210,6 +210,9 @@ Template: twentytwelve
 					margin-bottom:0;
 				}
 		
+			.site-content article {
+				margin-bottom: 15px;
+			}
 		/*-== Post Heading ==--*/
 				.entry-number {
 					font-family: elephnt;
