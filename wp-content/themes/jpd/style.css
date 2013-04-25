@@ -166,10 +166,13 @@ Template: twentytwelve
 			}
 				/*--== Categories 2 ==--*/
 		
-				/*Really Simple Sidebar Gallery*/			
+				/*Really Simple Sidebar Gallery*/	
+			.rsgallery {
+				margin-left:50px;
+				}				
 			.rsg_image {
 				float: left;
-				margin: 10px 5px 10px 0;
+				margin: 10px;
 			}
 			.widget.widget_rsg {
 			    overflow: auto;
