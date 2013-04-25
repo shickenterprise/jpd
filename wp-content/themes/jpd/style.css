@@ -135,6 +135,10 @@ Template: twentytwelve
 	.widget-area .widget {
     text-align: center;
 	}
+	.widget-area .widget a {
+    color: #757575;
+    text-decoration: none;
+	}
 	.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
     color: #97669B;
     font-family: parfumeriescriptregular;
