@@ -43,7 +43,8 @@ Template: twentytwelve
 						/*--== Page Size & Positioning ==-- */
 				/*page*/	
 				body {
-					background-image: url(_images/transparent_floral_back.png);
+	background-image: url(_images/floral_background_small.png);
+	background-repeat: repeat;
 				}
 				h1, h2, h3, h4, h5, h6, a {
 				color: #97669B;
