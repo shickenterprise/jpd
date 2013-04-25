@@ -115,7 +115,9 @@ Template: twentytwelve
 		float:	left;
 		padding: 0 5px;
 	}
-
+	.site-content article {
+    margin-bottom: 15px;
+	}
 	.content-bottom-border {
 		border-top: 4px double #666666;
 		margin: 0 auto;
